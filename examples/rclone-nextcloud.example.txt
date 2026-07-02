@@ -1,0 +1,15 @@
+rclone config example:
+
+n) New remote
+name> nextcloud
+Storage> webdav
+url> https://your-machine.your-tailnet.ts.net/remote.php/dav/files/your-nextcloud-user/
+vendor> nextcloud
+user> your-nextcloud-user
+password> use a Nextcloud app password
+bearer_token> press Enter
+
+Test:
+
+rclone lsd nextcloud:
+rclone copy nextcloud:photoframe /home/pi/Pictures/frame --dry-run

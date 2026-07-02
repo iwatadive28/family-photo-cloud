@@ -1,0 +1,4 @@
+interface:
+  display_name: "Family Photo Cloud Setup"
+  short_description: "Private photo cloud and Pi frame setup."
+  default_prompt: "Use $family-photo-cloud-setup to guide my private Nextcloud and Raspberry Pi photoframe setup."
