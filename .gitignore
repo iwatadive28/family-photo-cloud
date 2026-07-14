@@ -5,6 +5,8 @@
 *.log
 *.tmp
 *.bak
+runtime/
+**/runtime/
 
 __pycache__/
 *.py[cod]

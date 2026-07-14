@@ -1,0 +1,22 @@
+[project]
+name = "photo-frame-web"
+version = "0.1.0"
+description = "Minimal web photo frame for family-photo-cloud"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.100",
+    "pillow>=10.0",
+    "python-dotenv>=1.0",
+    "uvicorn>=0.23",
+]
+
+[tool.uv]
+package = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["app/photo_frame_web"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+

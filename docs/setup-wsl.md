@@ -20,7 +20,7 @@ From WSL/Docker Desktop, this may appear as:
 ## 2. Check prerequisites
 
 ```bash
-cd family-photo-cloud-kit
+cd family-photo-cloud
 PHOTO_ROOT=/mnt/d/home bash scripts/wsl/check-prereqs.sh
 ```
 

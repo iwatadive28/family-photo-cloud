@@ -1,9 +1,16 @@
 # Raspberry Pi setup
 
+このページは、Raspberry Piへ写真を同期して `feh` でローカル表示する基本編です。
+
+サーバーPCからWebアプリとして配信し、Raspberry Piをブラウザ表示専用端末にする発展編は、次のページを使います。
+
+- `docs/setup-web-photo-frame.md`
+- `docs/setup-raspberry-pi-kiosk-web.md`
+
 ## 1. Install helpers
 
 ```bash
-cd family-photo-cloud-kit
+cd family-photo-cloud
 bash scripts/pi/install-photoframe.sh
 ```
 
